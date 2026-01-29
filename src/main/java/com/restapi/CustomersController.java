@@ -8,7 +8,7 @@ public class CustomersController {
 
     @GetMapping
     public String getCustomer(){
-        return "http GET request to get the customer details";
+        return "http GET request to get the customer details usingCICD ";
     }
 
     @GetMapping(path = "/{customerId}")
